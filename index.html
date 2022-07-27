@@ -362,7 +362,8 @@
                             </p>
                         </div>
                         <div class="col-lg-6 text-end m-auto">
-                            <button class="btn btn-light text-primary fw-semibold py-3 px-5">Register Now </button>
+                            <button class="btn btn-light text-primary fw-semibold py-3 px-5" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">Register Now </button>
                         </div>
                     </div>
                 </div>
@@ -370,6 +371,40 @@
         </div>
     </section>
     <!-- ready to join -->
+
+    <!-- modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Register</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput1" placeholder="name@example.com">
+                            <label for="floatingInput1">Name</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput2" placeholder="name@example.com">
+                            <label for="floatingInput2">Email address</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="password" class="form-control" id="floatingInput3"
+                                placeholder="name@example.com">
+                            <label for="floatingInput3">Password</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Register Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal -->
 
 
 
