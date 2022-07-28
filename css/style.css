@@ -4,7 +4,8 @@
 }
 
 .btn-blue,
-.btn-outline-blue:hover {
+.btn-outline-blue:hover,
+.btn-blue:hover {
     background-color: #289BDE;
     border: 1px solid #289BDE;
     color: white;
@@ -29,6 +30,7 @@
 .readMoreBtn {
     width: 25%;
 }
+
 
 
 /* footer */
