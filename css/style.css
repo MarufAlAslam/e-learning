@@ -1,3 +1,73 @@
+/* universal css */
 * {
     font-family: 'Poppins', sans-serif;
+}
+
+.btn-blue,
+.btn-outline-blue:hover {
+    background-color: #289BDE;
+    border: 1px solid #289BDE;
+    color: white;
+    padding: 10px 25px;
+}
+
+.btn-outline-blue {
+    border: 1px solid #289BDE;
+    color: #289BDE;
+    padding: 10px 25px;
+}
+
+.bg-blue {
+    background-color: #289BDE;
+}
+
+.fit-cover {
+    object-fit: cover;
+}
+
+/* read more */
+.readMoreBtn {
+    width: 25%;
+}
+
+
+/* footer */
+.social li a {
+    background: rgba(255, 255, 255, 0.1);
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* custom responsiveness */
+@media screen and (max-width: 1200px) {
+    .ellipsis {
+        height: 70px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
+    }
+
+    .explore.py-5 img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .readMoreBtn {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .hero.py-2 img {
+        height: 400px;
+        object-fit: cover;
+    }
+
+    .w-80 {
+        width: 80%;
+    }
 }
